@@ -3,7 +3,7 @@
   "version": "1.4.0",
   "slug": "mqtt_antena",
   "description": "A web UI for monitoring and publishing MQTT messages, ideal for development and debugging.",
-  "url": "https://github.com/fbossolan/mqtt-antena-hass-addon",
+  "url": "https://fbossolan.github.io/mqtt-antena/",
   "arch": [
     "aarch64",
     "amd64",
@@ -26,5 +26,5 @@
   "schema": {
     "secret_key": "password"
   },
-  "image": "fbossolan/mqtt-antena:latest"
+  "image": "fbossolan/mqtt-antena"
 }
