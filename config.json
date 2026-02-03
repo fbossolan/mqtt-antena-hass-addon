@@ -1,6 +1,6 @@
 {
   "name": "MQTT Antena",
-  "version": "1.4.0",
+  "version": "1.5.1",
   "slug": "mqtt_antena",
   "description": "A web UI for monitoring and publishing MQTT messages, ideal for development and debugging.",
   "url": "https://fbossolan.github.io/mqtt-antena/",
