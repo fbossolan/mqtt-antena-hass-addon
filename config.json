@@ -5,6 +5,7 @@
   "description": "A web UI for monitoring and publishing MQTT messages, ideal for development and debugging.",
   "panel_icon": "mdi:video-input-antenna",
   "panel_title": "MQTT Antena",
+  "panel_admin": true, 
   "ingress": true,
   "url": "https://fbossolan.github.io/mqtt-antena/",
   "arch": [
