@@ -18,6 +18,9 @@
   "ports": {
     "8585/tcp": null
   },
+  "ports_description": {
+    "8585": "Exposed HTTP port"
+  },
   "url": "https://fbossolan.github.io/mqtt-antena/",
   "options": {
     "secret_key": ""
