@@ -1,6 +1,31 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [v1.5.4] - 2026-02-04
+
+
+
+### Bug Fixes
+
+- add keep-alive header and frontend debug logs
+
+- add granular debugging logs
+
+
+### Features
+
+- release v1.5.4
+
+- release v1.5.4
+
+
+### Maintenance
+
+- update changelog
+
+- organizing the release script
+
+
 ## [v1.5.3] - 2026-02-04
 
 
