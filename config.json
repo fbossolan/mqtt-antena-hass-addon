@@ -7,6 +7,7 @@
   "panel_title": "MQTT Antena",
   "panel_admin": true, 
   "ingress": true,
+  "ingress_port": 8585,
   "url": "https://fbossolan.github.io/mqtt-antena/",
   "arch": [
     "aarch64",
@@ -19,7 +20,7 @@
   "boot": "auto",
   "webui": "http://[HOST]:[PORT:8585]",
   "ports": {
-    "8585/tcp": 8585
+    "8585/tcp": null
   },
   "environment": {
     "SECRET_KEY": "{secret_key}"
