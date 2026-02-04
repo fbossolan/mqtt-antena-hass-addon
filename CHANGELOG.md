@@ -1,6 +1,34 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [v1.5.5] - 2026-02-04
+
+
+
+### Bug Fixes
+
+- implement padding strategy for buffering
+
+
+### Features
+
+- release v1.5.5
+
+- release v1.5.5
+
+- release v1.5.5
+
+
+### Maintenance
+
+- update changelog
+
+
+### Refactoring
+
+- refactoring the release script
+
+
 ## [v1.5.4] - 2026-02-04
 
 
