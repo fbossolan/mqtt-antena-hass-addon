@@ -1,31 +1,33 @@
 {
   "name": "MQTT Antena",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "slug": "mqtt_antena",
   "description": "A web UI for monitoring and publishing MQTT messages, ideal for development and debugging.",
   "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+
   "startup": "application",
   "boot": "auto",
+
   "ingress": true,
+  "ingress_only": true,
   "ingress_port": 8585,
-  "panel_icon": "mdi:video-input-antenna",
-  "panel_admin": false, 
+
   "panel_title": "MQTT Antena",
+  "panel_icon": "mdi:video-input-antenna",
+  "panel_admin": false,
+
   "image": "fbossolan/mqtt-antena",
-  "map": [ "addons" ],
+
+  "map": ["addons"],
+
   "environment": {
     "SECRET_KEY": "{secret_key}"
   },
-  "ports": {
-    "8585/tcp": null
-  },
-  "ports_description": {
-    "8585": "Exposed HTTP port"
-  },
-  "url": "https://fbossolan.github.io/mqtt-antena/",
+
   "options": {
     "secret_key": ""
   },
+
   "schema": {
     "secret_key": "password"
   }
