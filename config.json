@@ -10,7 +10,7 @@
   "ingress_port": 8585,
   "panel_icon": "mdi:video-input-antenna",
   "panel_admin": true, 
-  "image": "fbossolan/mqtt-antena"
+  "image": "fbossolan/mqtt-antena",
   "map": [ "addons" ],
   "environment": {
     "SECRET_KEY": "{secret_key}"
