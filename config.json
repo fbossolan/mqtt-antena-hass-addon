@@ -18,7 +18,7 @@
   ],
   "startup": "application",
   "boot": "auto",
-  "webui": "http://[HOST]:[PORT:8585]",
+  #"webui": "http://[HOST]:[PORT:8585]",
   "ports": {
     "8585/tcp": null
   },
