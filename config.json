@@ -9,7 +9,8 @@
   "ingress": true,
   "ingress_port": 8585,
   "panel_icon": "mdi:video-input-antenna",
-  "panel_admin": true, 
+  "panel_admin": false, 
+  "panel_title": "MQTT Antena",
   "image": "fbossolan/mqtt-antena",
   "map": [ "addons" ],
   "environment": {
