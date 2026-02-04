@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [v1.5.6] - 2026-02-04
 
 
 
@@ -9,10 +9,50 @@ All notable changes to this project will be documented in this file.
 
 - removing duplicate messages in CHANGELOG generation
 
+- increase padding to 16KB to overcome aggressive buffering
+
+- use async connect to prevent gevent blocking
+
+- fixing the latency when loading events
+
+
+### Build System
+
+- update to run with gevent and Socket.IO
+
+
+### Features
+
+- add flask-socketio for websocket support
+
+- release v1.5.6
+
 
 ### Maintenance
 
 - update changelog
+
+- updating changelog
+
+
+### Refactoring
+
+- replace deprecated eventlet with gevent
+
+- replace SSE queues with Socket.IO broadcasting
+
+- replace SSE stream with Socket.IO handlers
+
+- replace EventSource with Socket.IO client
+
+
+### Tests
+
+- update MQTT integration tests for Socket.IO
+
+- update connection failure test for async behavior
+
+- simplify async connection test
 
 
 ## [v1.5.5] - 2026-02-04
