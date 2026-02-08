@@ -1,6 +1,31 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [v1.5.8] - 2026-02-08
+
+
+
+### Documentation
+
+- adding HASS badge
+
+- update README for WebSocket implementation
+
+
+### Features
+
+- display sse status based on selected broker
+
+- release v1.5.8
+
+
+### Maintenance
+
+- update changelog
+
+- specifying library versions
+
+
 ## [v1.5.7] - 2026-02-05
 
 
